@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>icon</key>
+			<string>6</string>
+			<key>title</key>
+			<string>我是谁</string>
+			<key>detail</key>
+			<string>我将要去哪里</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>7</string>
+			<key>title</key>
+			<string>你是谁</string>
+			<key>detail</key>
+			<string>你将要去哪里</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>8</string>
+			<key>title</key>
+			<string>它是谁</string>
+			<key>detail</key>
+			<string>它要去哪里</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>icon</key>
+			<string>8</string>
+			<key>title</key>
+			<string>的公式公式</string>
+			<key>detail</key>
+			<string>是的感受到根深蒂固十大歌手</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>9</string>
+			<key>title</key>
+			<string>是的公式公式但是但是</string>
+			<key>detail</key>
+			<string>看来你都是分类但是你说的故事刘德华公里数</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>icon</key>
+			<string>10</string>
+			<key>title</key>
+			<string>算法劣势江东父老框架是</string>
+			<key>detail</key>
+			<string>的故事的故事的公式公式的公式公式的公式公式公式公式</string>
+		</dict>
+	</array>
+</array>
+</plist>
