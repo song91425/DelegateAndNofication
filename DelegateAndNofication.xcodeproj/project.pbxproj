@@ -19,6 +19,12 @@
 		DA96AAF024FC910A00B5ED87 /* TableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA96AAEF24FC910A00B5ED87 /* TableViewViewController.m */; };
 		DA96AAF324FCCE4A00B5ED87 /* TableView.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA96AAF224FCCE4A00B5ED87 /* TableView.plist */; };
 		DA96AAF624FCD4DE00B5ED87 /* FaceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA96AAF524FCD4DE00B5ED87 /* FaceTableViewCell.m */; };
+		DAA144DB2508AE8C00981996 /* SandBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA144DA2508AE8C00981996 /* SandBoxViewController.m */; };
+		DAA144DD2508AEAA00981996 /* SandBox.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA144DC2508AEAA00981996 /* SandBox.storyboard */; };
+		DAA316D62501E26500DC3072 /* LifeCycle.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA316D52501E26500DC3072 /* LifeCycle.m */; };
+		DAA316D92501E96F00DC3072 /* LifeCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA316D82501E96F00DC3072 /* LifeCycleViewController.m */; };
+		DAA316DC2502393800DC3072 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA316DB2502393800DC3072 /* BViewController.m */; };
+		DAA316DF2502394800DC3072 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA316DE2502394800DC3072 /* CViewController.m */; };
 		DAA9A12D24FF31F300E1BA14 /* tableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAA9A12C24FF31F300E1BA14 /* tableViewCell.xib */; };
 		DAA9A13024FF336B00E1BA14 /* NIBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9A12F24FF336B00E1BA14 /* NIBTableViewCell.m */; };
 		DAF075C424F7A0F100A3A6C5 /* CollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAF075C324F7A0F100A3A6C5 /* CollectionView.xib */; };
@@ -81,6 +87,17 @@
 		DA96AAF224FCCE4A00B5ED87 /* TableView.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TableView.plist; sourceTree = "<group>"; };
 		DA96AAF424FCD4DE00B5ED87 /* FaceTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceTableViewCell.h; sourceTree = "<group>"; };
 		DA96AAF524FCD4DE00B5ED87 /* FaceTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceTableViewCell.m; sourceTree = "<group>"; };
+		DAA144D92508AE8C00981996 /* SandBoxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandBoxViewController.h; sourceTree = "<group>"; };
+		DAA144DA2508AE8C00981996 /* SandBoxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandBoxViewController.m; sourceTree = "<group>"; };
+		DAA144DC2508AEAA00981996 /* SandBox.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SandBox.storyboard; sourceTree = "<group>"; };
+		DAA316D42501E26500DC3072 /* LifeCycle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LifeCycle.h; sourceTree = "<group>"; };
+		DAA316D52501E26500DC3072 /* LifeCycle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeCycle.m; sourceTree = "<group>"; };
+		DAA316D72501E96F00DC3072 /* LifeCycleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LifeCycleViewController.h; sourceTree = "<group>"; };
+		DAA316D82501E96F00DC3072 /* LifeCycleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeCycleViewController.m; sourceTree = "<group>"; };
+		DAA316DA2502393800DC3072 /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		DAA316DB2502393800DC3072 /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		DAA316DD2502394800DC3072 /* CViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
+		DAA316DE2502394800DC3072 /* CViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
 		DAA9A12C24FF31F300E1BA14 /* tableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tableViewCell.xib; sourceTree = "<group>"; };
 		DAA9A12E24FF336B00E1BA14 /* NIBTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIBTableViewCell.h; sourceTree = "<group>"; };
 		DAA9A12F24FF336B00E1BA14 /* NIBTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIBTableViewCell.m; sourceTree = "<group>"; };
@@ -177,6 +194,7 @@
 				DAF075C324F7A0F100A3A6C5 /* CollectionView.xib */,
 				DAF075E024F9252000A3A6C5 /* TableBar.storyboard */,
 				DAA9A12C24FF31F300E1BA14 /* tableViewCell.xib */,
+				DAA144DC2508AEAA00981996 /* SandBox.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -215,6 +233,30 @@
 				DA96AAF224FCCE4A00B5ED87 /* TableView.plist */,
 			);
 			path = Plist;
+			sourceTree = "<group>";
+		};
+		DAA144D82508AE6F00981996 /* SandBox */ = {
+			isa = PBXGroup;
+			children = (
+				DAA144D92508AE8C00981996 /* SandBoxViewController.h */,
+				DAA144DA2508AE8C00981996 /* SandBoxViewController.m */,
+			);
+			path = SandBox;
+			sourceTree = "<group>";
+		};
+		DAA316D325010E8700DC3072 /* LifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				DAA316D42501E26500DC3072 /* LifeCycle.h */,
+				DAA316D52501E26500DC3072 /* LifeCycle.m */,
+				DAA316D72501E96F00DC3072 /* LifeCycleViewController.h */,
+				DAA316D82501E96F00DC3072 /* LifeCycleViewController.m */,
+				DAA316DA2502393800DC3072 /* BViewController.h */,
+				DAA316DB2502393800DC3072 /* BViewController.m */,
+				DAA316DD2502394800DC3072 /* CViewController.h */,
+				DAA316DE2502394800DC3072 /* CViewController.m */,
+			);
+			path = LifeCycle;
 			sourceTree = "<group>";
 		};
 		DAF075CB24F8A5AA00A3A6C5 /* DDCollectionViewDelegateFlowLayout */ = {
@@ -276,6 +318,8 @@
 		DAF6C3CF24EF70C400B24D5F /* DelegateAndNofication */ = {
 			isa = PBXGroup;
 			children = (
+				DAA144D82508AE6F00981996 /* SandBox */,
+				DAA316D325010E8700DC3072 /* LifeCycle */,
 				DA96AAF124FCCD9D00B5ED87 /* Plist */,
 				DA96AAED24FC8F2900B5ED87 /* TableView */,
 				DAF075D824F8F36800A3A6C5 /* SWRevealViewController */,
@@ -442,6 +486,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA144DD2508AEAA00981996 /* SandBox.storyboard in Resources */,
 				DAA9A12D24FF31F300E1BA14 /* tableViewCell.xib in Resources */,
 				DA0E6FEA24F63E6F00B8C98D /* resource.plist in Resources */,
 				DAF6C3E024EF70C700B24D5F /* LaunchScreen.storyboard in Resources */,
@@ -485,17 +530,22 @@
 				DAF6C40824EF719F00B24D5F /* SecondViewController.m in Sources */,
 				DA96AAF024FC910A00B5ED87 /* TableViewViewController.m in Sources */,
 				DAF075DB24F8F37500A3A6C5 /* SWRevealViewController.m in Sources */,
+				DAA316DC2502393800DC3072 /* BViewController.m in Sources */,
 				DAF075D724F8EF3600A3A6C5 /* SidesloppingViewController.m in Sources */,
+				DAA316D62501E26500DC3072 /* LifeCycle.m in Sources */,
 				DA0E6F6B24F6044500B8C98D /* OptionUICollectionViewController.m in Sources */,
+				DAA316D92501E96F00DC3072 /* LifeCycleViewController.m in Sources */,
 				DAF6C3D224EF70C400B24D5F /* AppDelegate.m in Sources */,
 				DAF6C3E324EF70C700B24D5F /* main.m in Sources */,
 				DAF6C3D524EF70C400B24D5F /* SceneDelegate.m in Sources */,
 				DAF075CE24F8A60C00A3A6C5 /* DDCollectionViewFlowLayout.m in Sources */,
 				DAF075C724F7A2FA00A3A6C5 /* NIBCollectionViewCell.m in Sources */,
+				DAA144DB2508AE8C00981996 /* SandBoxViewController.m in Sources */,
 				DAA9A13024FF336B00E1BA14 /* NIBTableViewCell.m in Sources */,
 				DA0E6F5C24F354A100B8C98D /* UILayoutViewController.m in Sources */,
 				DAF075CA24F7B7EA00A3A6C5 /* WaterLayoutViewController.m in Sources */,
 				DA0E6FED24F640DC00B8C98D /* CellDatas.m in Sources */,
+				DAA316DF2502394800DC3072 /* CViewController.m in Sources */,
 				DA0E6F6224F4C7E700B8C98D /* OptionUIImageViewController.m in Sources */,
 				DAF6C40B24EFAE2000B24D5F /* DeliveryClickEvent.m in Sources */,
 				DA96AAF624FCD4DE00B5ED87 /* FaceTableViewCell.m in Sources */,
