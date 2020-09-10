@@ -11,7 +11,7 @@
         <!--瀑布流-->
         <scene sceneID="mZs-IG-ZgT">
             <objects>
-                <viewController id="gcc-eh-8Zp" sceneMemberID="viewController">
+                <viewController id="gcc-eh-8Zp" customClass="WaterLayoutViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wAi-ra-6Yv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -31,7 +31,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z92-4q-J6J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2042" y="408"/>
+            <point key="canvasLocation" x="-1610" y="-481"/>
         </scene>
         <!--UITableView-->
         <scene sceneID="dop-gZ-3fe">
@@ -108,38 +108,41 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="PIG-BI-Xgu" kind="relationship" relationship="viewControllers" id="MH1-RG-7Z3"/>
-                        <segue destination="gUh-Zq-RNu" kind="relationship" relationship="viewControllers" id="O2M-dw-iiG"/>
-                        <segue destination="ieh-v0-DbX" kind="relationship" relationship="viewControllers" id="rmi-8Z-a6J"/>
-                        <segue destination="gcc-eh-8Zp" kind="relationship" relationship="viewControllers" id="AXD-tC-4c6"/>
+                        <segue destination="PIG-BI-Xgu" kind="relationship" relationship="viewControllers" id="maQ-Di-gC5"/>
+                        <segue destination="gUh-Zq-RNu" kind="relationship" relationship="viewControllers" id="gsg-hn-yER"/>
+                        <segue destination="gcc-eh-8Zp" kind="relationship" relationship="viewControllers" id="Uoe-oE-nTJ"/>
+                        <segue destination="ieh-v0-DbX" kind="relationship" relationship="viewControllers" id="mhn-4k-E1S"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MRA-id-AHZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3004" y="-779"/>
         </scene>
-        <!--留用-->
+        <!--生命周期-->
         <scene sceneID="uCr-9l-DLy">
             <objects>
-                <viewController storyboardIdentifier="OptionUICollectionViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ieh-v0-DbX" customClass="OptionUICollectionViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OptionUICollectionViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ieh-v0-DbX" customClass="LifeCycleViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pZO-Os-7y8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eob-D7-iiR">
-                                <rect key="frame" x="184" y="570" width="46" height="30"/>
+                                <rect key="frame" x="161" y="263" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="测试文件沙盒"/>
+                                <connections>
+                                    <action selector="clickToSandBox:" destination="ieh-v0-DbX" eventType="touchDown" id="9Zy-J0-obf"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="hXl-Ac-R1k"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="留用" id="IpP-sd-AHR"/>
+                    <tabBarItem key="tabBarItem" title="生命周期" id="IpP-sd-AHR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ksh-DA-Qw3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1610" y="-348"/>
+            <point key="canvasLocation" x="-1626" y="250"/>
         </scene>
     </scenes>
 </document>
