@@ -36,8 +36,6 @@
     [self.view addGestureRecognizer:revealController.panGestureRecognizer];
 //    [self customerMyView];
     [self testNotification];
-    
-    
 }
 
 // 点击进入瀑布流
@@ -136,9 +134,14 @@
     nextVc.delegate = self;
 }
 
+
 - (void)dealloc
 {
+}
+
+- (void)viewDidDisappear:(BOOL)animated{
     [NSNotificationCenter.defaultCenter removeObserver:self];
+
 }
 
 - (void)didReceiveMemoryWarning {

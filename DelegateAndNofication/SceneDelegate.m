@@ -21,7 +21,7 @@
 
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
-    NSLog(@"+++++++++++++willConnectToSession++++++++++++");
+    NSLog(@"+++++++++++++scene:willConnectToSession:options:++++++++++++");
     
     if(@available(iOS 13.0, *)){
         // Override point for customization after application launch.
@@ -58,7 +58,8 @@
         UIStoryboard *storyHome = [UIStoryboard storyboardWithName:@"TableBar" bundle:nil];
         
         TableBarViewController *tableBar = [storyHome instantiateViewControllerWithIdentifier:@"TableBarViewController"];
-        [self.window setRootViewController:tableBar];
+        UINavigationController *vc = [[UINavigationController alloc] initWithRootViewController:tableBar];
+        [self.window setRootViewController:vc];
         [self.window makeKeyAndVisible];
         
     }
@@ -71,7 +72,7 @@
 
 
 - (void)sceneDidDisconnect:(UIScene *)scene {
-    NSLog(@"+++++++++++++sceneDidDisconnect++++++++++++");
+    NSLog(@"+++++++++++++sceneDidDisconnect:++++++++++++");
     // Called as the scene is being released by the system.
     // This occurs shortly after the scene enters the background, or when its session is discarded.
     // Release any resources associated with this scene that can be re-created the next time the scene connects.
@@ -80,32 +81,35 @@
 
 
 - (void)sceneDidBecomeActive:(UIScene *)scene {
-    NSLog(@"+++++++++++++sceneDidBecomeActive++++++++++++");
+    NSLog(@"+++++++++++++sceneDidBecomeActive:++++++++++++");
     // Called when the scene has moved from an inactive state to an active state.
     // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.
 }
 
 
 - (void)sceneWillResignActive:(UIScene *)scene {
-    NSLog(@"+++++++++++++sceneWillResignActive++++++++++++");
+    NSLog(@"+++++++++++++sceneWillResignActive:++++++++++++");
     // Called when the scene will move from an active state to an inactive state.
     // This may occur due to temporary interruptions (ex. an incoming phone call).
 }
 
 
 - (void)sceneWillEnterForeground:(UIScene *)scene {
-    NSLog(@"+++++++++++++sceneWillEnterForeground++++++++++++");
+    NSLog(@"+++++++++++++sceneWillEnterForeground:++++++++++++");
     // Called as the scene transitions from the background to the foreground.
     // Use this method to undo the changes made on entering the background.
 }
 
 
 - (void)sceneDidEnterBackground:(UIScene *)scene {
-    NSLog(@"+++++++++++++sceneDidEnterBackground++++++++++++");
+    NSLog(@"+++++++++++++sceneDidEnterBackground:++++++++++++");
     // Called as the scene transitions from the foreground to the background.
     // Use this method to save data, release shared resources, and store enough scene-specific state information
     // to restore the scene back to its current state.
 }
+- (void)scene:(UIScene *)scene openURLContexts:(NSSet<UIOpenURLContext *> *)URLContexts{
+    NSLog(@"+++++++++++++scene:openURLContexts:++++++++++++");
 
+}
 
 @end

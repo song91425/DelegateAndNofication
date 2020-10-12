@@ -10,6 +10,7 @@
 #import "CellDatas.h"
 #import "CollectionViewCell.h"
 #import "NIBCollectionViewCell.h"
+#import "NetWorkRequestViewController.h"
 
 #define CELLID @"cell"
 #define CELLMAXSECTION 100
@@ -36,6 +37,13 @@
     [self initView];
 }
 
+- (IBAction)testNetWorkButton:(UIButton *)sender {
+    UIStoryboard *stroy = [UIStoryboard storyboardWithName:@"NetWork" bundle:nil];
+    NetWorkRequestViewController *vc = [stroy instantiateViewControllerWithIdentifier:@"tWorkRequestViewController"];
+    vc.modalPresentationStyle = UIModalPresentationCurrentContext;
+    [self.navigationController pushViewController:vc animated:YES];
+//    [self presentViewController:vc animated:YES completion:nil];
+}
 
 -(NSArray *) datas{
     // 懒加载数据

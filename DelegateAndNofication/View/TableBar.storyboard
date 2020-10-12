@@ -87,6 +87,17 @@
                     <view key="view" contentMode="scaleToFill" id="5eP-MH-pI1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aC6-LZ-Qzm">
+                                <rect key="frame" x="155" y="618" width="104" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="测试网络请求"/>
+                                <connections>
+                                    <action selector="testNetWorkButton:" destination="gUh-Zq-RNu" eventType="touchUpInside" id="eL6-dY-7vu"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="sj4-r6-xSg"/>
                     </view>
@@ -95,7 +106,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QJ2-5G-OSQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1610" y="-1145"/>
+            <point key="canvasLocation" x="-1610.144927536232" y="-1145.0892857142856"/>
         </scene>
         <!--Table Bar View Controller-->
         <scene sceneID="ErS-1M-3PH">
@@ -132,6 +143,14 @@
                                 <state key="normal" title="测试文件沙盒"/>
                                 <connections>
                                     <action selector="clickToSandBox:" destination="ieh-v0-DbX" eventType="touchDown" id="9Zy-J0-obf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fR3-sP-1sJ">
+                                <rect key="frame" x="153" y="379" width="109" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="读取Bundle文件"/>
+                                <connections>
+                                    <action selector="readBundle:" destination="ieh-v0-DbX" eventType="touchDown" id="DA0-FB-3nP"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -7,10 +7,10 @@
 //
 
 #import "LifeCycleViewController.h"
-#import "SceneDelegate.h"
 #import "LifeCycle.h"
 #import "BViewController.h"
 #import "SandBoxViewController.h"
+#import "BundleViewController.h"
 
 @interface LifeCycleViewController ()
 @property(strong,nonatomic) LifeCycle *lcView;
@@ -50,12 +50,20 @@
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(90, 100, 200, 100)];
     [label setText:@"这是AViewController"];
     [self.view addSubview:label];
+    
 }
 -(void) removeView{
     NSLog(@"使用removeFromSuperview方法把视图从父视图移走");
     _lcView.log = @"销毁过程";
     [_lcView removeFromSuperview];
     _lcView = nil;
+    
+}
+- (IBAction)readBundle:(UIButton *)sender {
+    UIStoryboard *story = [UIStoryboard storyboardWithName:@"BundleLoad" bundle:nil];
+    BundleViewController *vc = [story instantiateViewControllerWithIdentifier:@"BundleViewController"];
+    vc.modalPresentationStyle = UIModalPresentationCurrentContext;
+    [self presentViewController:vc animated:YES completion:nil];
     
 }
 

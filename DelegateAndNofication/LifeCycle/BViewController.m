@@ -39,7 +39,7 @@
     
     //添加返回到AVC的按钮
        UIButton *btn2 = [[UIButton alloc] initWithFrame:CGRectMake(50, 150, 300, 50)];
-       [btn2 setTitle:@"点击返回BViewController" forState:UIControlStateNormal];
+       [btn2 setTitle:@"点击返回到AViewController" forState:UIControlStateNormal];
        [btn2 setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
        [btn2 addTarget:self action:@selector(clikToAViewController) forControlEvents:UIControlEventTouchDown];
        [self.view addSubview:btn2];
@@ -49,8 +49,8 @@
 
 // 跳转
 -(void) clikToAViewController{
-    [self.navigationController popToViewController:self animated:YES];
-//    [self dismissViewControllerAnimated:YES completion:nil];
+//    [self.navigationController popToViewController:self animated:YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 // 跳转
@@ -67,6 +67,7 @@
     NSLog(@"BViewController --> initialize");
     
 }
+
 
 - (instancetype)init{
      NSLog(@"BViewController --> init");

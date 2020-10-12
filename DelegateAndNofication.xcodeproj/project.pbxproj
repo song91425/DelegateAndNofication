@@ -19,6 +19,8 @@
 		DA96AAF024FC910A00B5ED87 /* TableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA96AAEF24FC910A00B5ED87 /* TableViewViewController.m */; };
 		DA96AAF324FCCE4A00B5ED87 /* TableView.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA96AAF224FCCE4A00B5ED87 /* TableView.plist */; };
 		DA96AAF624FCD4DE00B5ED87 /* FaceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA96AAF524FCD4DE00B5ED87 /* FaceTableViewCell.m */; };
+		DA976463252179CF00C94167 /* NetWorkRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA976462252179CF00C94167 /* NetWorkRequestViewController.m */; };
+		DA97646525217A9200C94167 /* NetWork.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA97646425217A9200C94167 /* NetWork.storyboard */; };
 		DAA144DB2508AE8C00981996 /* SandBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA144DA2508AE8C00981996 /* SandBoxViewController.m */; };
 		DAA144DD2508AEAA00981996 /* SandBox.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA144DC2508AEAA00981996 /* SandBox.storyboard */; };
 		DAA316D62501E26500DC3072 /* LifeCycle.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA316D52501E26500DC3072 /* LifeCycle.m */; };
@@ -27,6 +29,9 @@
 		DAA316DF2502394800DC3072 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA316DE2502394800DC3072 /* CViewController.m */; };
 		DAA9A12D24FF31F300E1BA14 /* tableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAA9A12C24FF31F300E1BA14 /* tableViewCell.xib */; };
 		DAA9A13024FF336B00E1BA14 /* NIBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9A12F24FF336B00E1BA14 /* NIBTableViewCell.m */; };
+		DAB57A5F250B7D3C005460DF /* resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DAB57A5E250B7D3C005460DF /* resource.bundle */; };
+		DAB57A63250B7FAB005460DF /* BundleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB57A62250B7FAB005460DF /* BundleViewController.m */; };
+		DAB57A65250B811A005460DF /* BundleLoad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB57A64250B811A005460DF /* BundleLoad.storyboard */; };
 		DAF075C424F7A0F100A3A6C5 /* CollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAF075C324F7A0F100A3A6C5 /* CollectionView.xib */; };
 		DAF075C724F7A2FA00A3A6C5 /* NIBCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF075C624F7A2FA00A3A6C5 /* NIBCollectionViewCell.m */; };
 		DAF075CA24F7B7EA00A3A6C5 /* WaterLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF075C924F7B7EA00A3A6C5 /* WaterLayoutViewController.m */; };
@@ -87,6 +92,9 @@
 		DA96AAF224FCCE4A00B5ED87 /* TableView.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TableView.plist; sourceTree = "<group>"; };
 		DA96AAF424FCD4DE00B5ED87 /* FaceTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceTableViewCell.h; sourceTree = "<group>"; };
 		DA96AAF524FCD4DE00B5ED87 /* FaceTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceTableViewCell.m; sourceTree = "<group>"; };
+		DA976461252179CF00C94167 /* NetWorkRequestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkRequestViewController.h; sourceTree = "<group>"; };
+		DA976462252179CF00C94167 /* NetWorkRequestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkRequestViewController.m; sourceTree = "<group>"; };
+		DA97646425217A9200C94167 /* NetWork.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NetWork.storyboard; sourceTree = "<group>"; };
 		DAA144D92508AE8C00981996 /* SandBoxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandBoxViewController.h; sourceTree = "<group>"; };
 		DAA144DA2508AE8C00981996 /* SandBoxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandBoxViewController.m; sourceTree = "<group>"; };
 		DAA144DC2508AEAA00981996 /* SandBox.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SandBox.storyboard; sourceTree = "<group>"; };
@@ -101,6 +109,10 @@
 		DAA9A12C24FF31F300E1BA14 /* tableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tableViewCell.xib; sourceTree = "<group>"; };
 		DAA9A12E24FF336B00E1BA14 /* NIBTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIBTableViewCell.h; sourceTree = "<group>"; };
 		DAA9A12F24FF336B00E1BA14 /* NIBTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIBTableViewCell.m; sourceTree = "<group>"; };
+		DAB57A5E250B7D3C005460DF /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resource.bundle; sourceTree = "<group>"; };
+		DAB57A61250B7FAB005460DF /* BundleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BundleViewController.h; sourceTree = "<group>"; };
+		DAB57A62250B7FAB005460DF /* BundleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BundleViewController.m; sourceTree = "<group>"; };
+		DAB57A64250B811A005460DF /* BundleLoad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BundleLoad.storyboard; sourceTree = "<group>"; };
 		DAF075C324F7A0F100A3A6C5 /* CollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionView.xib; sourceTree = "<group>"; };
 		DAF075C524F7A2FA00A3A6C5 /* NIBCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIBCollectionViewCell.h; sourceTree = "<group>"; };
 		DAF075C624F7A2FA00A3A6C5 /* NIBCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIBCollectionViewCell.m; sourceTree = "<group>"; };
@@ -195,6 +207,8 @@
 				DAF075E024F9252000A3A6C5 /* TableBar.storyboard */,
 				DAA9A12C24FF31F300E1BA14 /* tableViewCell.xib */,
 				DAA144DC2508AEAA00981996 /* SandBox.storyboard */,
+				DAB57A64250B811A005460DF /* BundleLoad.storyboard */,
+				DA97646425217A9200C94167 /* NetWork.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -235,6 +249,15 @@
 			path = Plist;
 			sourceTree = "<group>";
 		};
+		DA9764602521793D00C94167 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				DA976461252179CF00C94167 /* NetWorkRequestViewController.h */,
+				DA976462252179CF00C94167 /* NetWorkRequestViewController.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		DAA144D82508AE6F00981996 /* SandBox */ = {
 			isa = PBXGroup;
 			children = (
@@ -257,6 +280,15 @@
 				DAA316DE2502394800DC3072 /* CViewController.m */,
 			);
 			path = LifeCycle;
+			sourceTree = "<group>";
+		};
+		DAB57A60250B7F8C005460DF /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				DAB57A61250B7FAB005460DF /* BundleViewController.h */,
+				DAB57A62250B7FAB005460DF /* BundleViewController.m */,
+			);
+			path = Bundle;
 			sourceTree = "<group>";
 		};
 		DAF075CB24F8A5AA00A3A6C5 /* DDCollectionViewDelegateFlowLayout */ = {
@@ -318,6 +350,9 @@
 		DAF6C3CF24EF70C400B24D5F /* DelegateAndNofication */ = {
 			isa = PBXGroup;
 			children = (
+				DA9764602521793D00C94167 /* Networking */,
+				DAB57A60250B7F8C005460DF /* Bundle */,
+				DAB57A5E250B7D3C005460DF /* resource.bundle */,
 				DAA144D82508AE6F00981996 /* SandBox */,
 				DAA316D325010E8700DC3072 /* LifeCycle */,
 				DA96AAF124FCCD9D00B5ED87 /* Plist */,
@@ -488,6 +523,8 @@
 			files = (
 				DAA144DD2508AEAA00981996 /* SandBox.storyboard in Resources */,
 				DAA9A12D24FF31F300E1BA14 /* tableViewCell.xib in Resources */,
+				DAB57A65250B811A005460DF /* BundleLoad.storyboard in Resources */,
+				DA97646525217A9200C94167 /* NetWork.storyboard in Resources */,
 				DA0E6FEA24F63E6F00B8C98D /* resource.plist in Resources */,
 				DAF6C3E024EF70C700B24D5F /* LaunchScreen.storyboard in Resources */,
 				DAF075C424F7A0F100A3A6C5 /* CollectionView.xib in Resources */,
@@ -496,6 +533,7 @@
 				DA0E6F5F24F3550D00B8C98D /* UILayout.storyboard in Resources */,
 				DA96AAF324FCCE4A00B5ED87 /* TableView.plist in Resources */,
 				DA0E6F6524F4CA5800B8C98D /* OptiScrollView.storyboard in Resources */,
+				DAB57A5F250B7D3C005460DF /* resource.bundle in Resources */,
 				DAF075E124F9252000A3A6C5 /* TableBar.storyboard in Resources */,
 				DAF6C3DB24EF70C400B24D5F /* Main.storyboard in Resources */,
 			);
@@ -532,12 +570,14 @@
 				DAF075DB24F8F37500A3A6C5 /* SWRevealViewController.m in Sources */,
 				DAA316DC2502393800DC3072 /* BViewController.m in Sources */,
 				DAF075D724F8EF3600A3A6C5 /* SidesloppingViewController.m in Sources */,
+				DAB57A63250B7FAB005460DF /* BundleViewController.m in Sources */,
 				DAA316D62501E26500DC3072 /* LifeCycle.m in Sources */,
 				DA0E6F6B24F6044500B8C98D /* OptionUICollectionViewController.m in Sources */,
 				DAA316D92501E96F00DC3072 /* LifeCycleViewController.m in Sources */,
 				DAF6C3D224EF70C400B24D5F /* AppDelegate.m in Sources */,
 				DAF6C3E324EF70C700B24D5F /* main.m in Sources */,
 				DAF6C3D524EF70C400B24D5F /* SceneDelegate.m in Sources */,
+				DA976463252179CF00C94167 /* NetWorkRequestViewController.m in Sources */,
 				DAF075CE24F8A60C00A3A6C5 /* DDCollectionViewFlowLayout.m in Sources */,
 				DAF075C724F7A2FA00A3A6C5 /* NIBCollectionViewCell.m in Sources */,
 				DAA144DB2508AE8C00981996 /* SandBoxViewController.m in Sources */,
@@ -723,16 +763,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 28PAA3S5M5;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85A4QKT4Z7;
 				INFOPLIST_FILE = DelegateAndNofication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.webank.DelegateAndNofication;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lss.DelegateAndNofication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = inhouse_dev;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -748,7 +789,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.webank.DelegateAndNofication;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lss.DelegateAndNofication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = inhouse_dev;
 				TARGETED_DEVICE_FAMILY = "1,2";

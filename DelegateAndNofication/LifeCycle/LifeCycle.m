@@ -22,6 +22,7 @@
     [super willMoveToSuperview:newSuperview];
 }
 
+
 - (void)didMoveToSuperview{
     [super didMoveToSuperview];
     NSLog(@"%@: didMoveToSuperview", self.log);

@@ -17,6 +17,10 @@
 
 @implementation AppDelegate
 
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey,id> *)launchOptions{
+    NSLog(@"==========application:willFinishLaunchingWithOptions:==========");
+    return YES;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     if (@available(iOS 13.0, *)) {
@@ -28,7 +32,7 @@
         [self.window makeKeyAndVisible];
         
     }
-    NSLog(@"==========didFinishLaunchingWithOptions==========");
+    NSLog(@"==========application:didFinishLaunchingWithOptions:==========");
     return YES;
 }
 
@@ -38,8 +42,8 @@
 
 - (UISceneConfiguration *)application:(UIApplication *)application configurationForConnectingSceneSession:(UISceneSession *)connectingSceneSession options:(UISceneConnectionOptions *)options {
     
-    
-    NSLog(@"==========configurationForConnectingSceneSession==========");
+    // 在这里获取Scene在info.plist文件配置的信息
+    NSLog(@"==========application:configurationForConnectingSceneSession:==========");
     // Called when a new scene session is being created.
     // Use this method to select a configuration to create the new scene with.
     return [[UISceneConfiguration alloc] initWithName:@"Default Configuration" sessionRole:connectingSceneSession.role];
@@ -48,11 +52,15 @@
 
 - (void)application:(UIApplication *)application didDiscardSceneSessions:(NSSet<UISceneSession *> *)sceneSessions {
     
-    NSLog(@"+++++++++++++didDiscardSceneSessions++++++++++++");
+    NSLog(@"+++++++++++++application:didDiscardSceneSessions:++++++++++++");
     // Called when the user discards a scene session.
     // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
     // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
 }
 
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options{
+    NSLog(@"+++++++++++++application:openURL:options:++++++++++++");
+    return YES;
+}
 
 @end
